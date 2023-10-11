@@ -15,7 +15,7 @@ public class Main {
             System.out.println("Enter a meter measurement: ");
             if (scan.hasNextDouble()) {
                 meter = scan.nextDouble();
-                if (meter < 0) {
+                if (meter <= 0) {
                     System.out.println("Invalid meter measurement");
                     scan.nextLine();
                 } else {
